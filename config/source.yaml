@@ -55,6 +55,9 @@
 - type: subscribe
   options:
     url: https://rss-node.com/link/FYw5RxXkHrRZdUAb?mu=1
+- type: subscribe
+  options:
+    url: https://caicai.herokuapp.com/clash/proxies
 
 # 网页模糊抓取
 - type: webfuzz
@@ -126,9 +129,6 @@
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/52bp/52bp.github.io/master/freesite.html
-- type: webfuzz
-  options:
-    url: https://caicai.herokuapp.com/clash/proxies
 
 # tg频道抓取
 - type: tgchannel
